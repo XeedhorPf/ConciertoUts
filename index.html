@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Concierto Gratuito 10 Años UTS Santander</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Styles.css ">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <div class="navbar-brand">UTS Santander</div>
+    </div>
+  </nav>
+
+  <header class="jumbotron">
+    <div class="container">
+      <h1>¡Las UTS celebran en grande!</h1>
+      <p>Concierto gratuito con Arcangel</p>
+    </div>
+  </header>
+
+  <section class="artist-section">
+    <div class="container artist-container">
+      <img src="https://cdn.eticket.mx/imagenes/artistas/240216160313064_performer_img_cat1Arcangel.jpg" alt="araca" class="artist-image">
+      <div class="artist-info">
+        <h2>Arcangel La Maravilla</h2>
+        <p>Celebramos los 10 años de gestión de nuestro Rector con un concierto exclusivo para la comunidad de las UTS Santander. ¡Una noche inolvidable con el talento mundial de Arcangel!</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="event-details">
+    <div class="container">
+      <h2>Detalles del Evento</h2>
+      <div class="details-container">
+        <div class="detail-item">
+          <i class="far fa-calendar-alt"></i>
+          <h3>Fecha</h3>
+          <p>25 de octubre, 2025</p>
+        </div>
+        <div class="detail-item">
+          <i class="far fa-clock"></i>
+          <h3>Hora</h3>
+          <p>7:00 p.m.</p>
+        </div>
+        <div class="detail-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <h3>Ubicación</h3>
+          <p>Coliseo de las UTS</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="countdown-section">
+    <div class="container">
+      <h2>¡No te lo pierdas!</h2>
+      <div class="countdown-container">
+        <div class="countdown-item">
+          <span id="days">00</span>
+          <span>Días</span>
+        </div>
+        <div class="countdown-item">
+          <span id="hours">00</span>
+          <span>Horas</span>
+        </div>
+        <div class="countdown-item">
+          <span id="minutes">00</span>
+          <span>Minutos</span>
+        </div>
+        <div class="countdown-item">
+          <span id="seconds">00</span>
+          <span>Segundos</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="registration-section">
+    <div class="container">
+      <h2>Confirma tu Asistencia</h2>
+      <div class="form-container">
+        <form id="registration-form">
+          <div class="form-group">
+            <label for="name">Nombre Completo</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Correo Electrónico</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="accompanist">¿Llevarás acompañante?</label>
+            <select id="accompanist" name="accompanist" required>
+              <option value="si">Sí</option>
+              <option value="no">No</option>
+            </select>
+          </div>
+          <div class="form-group" id="accompanist-info" style="display: none;">
+            <label for="accompanist-name">Nombre del Acompañante</label>
+            <input type="text" id="accompanist-name" name="accompanist-name">
+          </div>
+          <button type="submit" class="btn-register">Confirmar Asistencia</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="faq-section">
+    <div class="container">
+      <h2>Preguntas Frecuentes</h2>
+      <div class="faq-container">
+        <div class="faq-item">
+          <div class="faq-question"> ¿El evento tiene costo?</div>
+          <div class="faq-answer"> No, el evento es completamente gratuito para toda la comunidad UTS. </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question"> ¿Dónde reclamo mi entrada?</div>
+          <div class="faq-answer"> Tu confirmación de asistencia será tu entrada digital, solo preséntala en el ingreso. </div>
+        </div>
+        <div class="faq-item">
+          <div class="faq-question"> ¿Puedo llevar acompañante?</div>
+          <div class="faq-answer"> Sí, cada estudiante puede llevar un acompañante registrando su información en el formulario. </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 UTS Santander - Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
